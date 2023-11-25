@@ -10,9 +10,10 @@ console.log(x,remain)
 
 console.log("-------------------- objects destructing----------------")
 // let obj = {a2:5,b2:9}
-let { a1, b1 } = { a2: 5, b2: 9 };
-console.log(a1, b1)
-
-const obj = { a3: 1, b3: 2 };
-const { a4, b4 } = obj;
-console.log(obj.a3, b4)
+let { a2, b2 } = { a2: 5, b2: 9 };//  Ensure the name are same
+console.log(a2, b2)
+// Spread coverts the array to object
+console.log("-------------------- Spread----------------")
+arr1 = [9,8,7]
+obj = {...arr1}
+console.log(obj)
