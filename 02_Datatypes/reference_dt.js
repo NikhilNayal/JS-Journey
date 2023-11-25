@@ -20,7 +20,7 @@ console.log(human.firstName , typeof(human.firstName))
 // Array are typ[e of objects that stores a collection of value
 console.log("----------------------------Lets learn Arrays-----------------")
 let itemList = ["red","green",2,50,true]
-console.log(itemList,typeof(itemList))
+console.log("Java script is dynamic type so it can store values with different data types",itemList,typeof(itemList))
 let idx = 4
 if (itemList[idx]){
     console.log("5th item in the list is",itemList[idx],"and has a type ",typeof(itemList[idx]))
